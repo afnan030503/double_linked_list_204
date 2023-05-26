@@ -51,8 +51,14 @@ void DoubleLinkedList::addNode() {
 		if (STARt != NULL)
 			START->prev = newNode; //step 4
 		newNode->prev = NULL; //step 5
-		START = newNode; // step
+		START = newNode; // step 6
+		return;
 	}
+
+	/*insertting a Node between Two Nodes In the list*/
+	Node* current = START; //step 1.a
+	Node* previoous = NULL; // step 1.b
+	while
 }
 
 
