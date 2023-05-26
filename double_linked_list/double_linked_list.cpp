@@ -30,7 +30,7 @@ DoubleLinkedList::addNode() {
 }
 
 void DoubleLinkedList::addNode() {
-	int nim;
+	int nim; 
 	string nm;
 	cout << "\nEnter the ro11 number of the student: ";
 	cin >> nim;
